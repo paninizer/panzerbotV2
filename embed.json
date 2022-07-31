@@ -1,0 +1,15 @@
+{
+  "colours": {
+    "error": "#ff0000",
+    "success": "#01ff07",
+    "default": "#999999",
+    "feldgrau": "#4d5d53",
+    "anime": "#ffb3ba",
+    "random": "RANDOM",
+    "olivegreen": "#315624",
+    "general": "#5050f1",
+    "info": "#ffff07",
+    "mod": "#c41e3a",
+    "fun": "#fff8e7"
+  }
+}
