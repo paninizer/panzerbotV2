@@ -4,7 +4,7 @@ const uewcd = new Map();
 
 module.exports.run = async (client, message, args) => {
   if (uewcd.has(message.member.id)) {
-    const cd = mcd.get(message.member.id)-Date.now();
+    const cd = uewcd.get(message.member.id)-Date.now();
     if (cd > 0) {
       await message.reply(`Please wait ${prettyMS(cd, {verbose: true})}!`);
       return;
