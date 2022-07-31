@@ -23,5 +23,5 @@ module.exports.run = async (client, message, args) => {
 
 module.exports.name = "prefix";
 module.exports.description = "Sets the prefix for this server.";
-module.exports.category = "Moderation";
+module.exports.category = "mod";
 module.exports.aliases = ["p"];
